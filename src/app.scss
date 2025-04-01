@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-item {
+  margin-right: 20px;
+  padding: 8px 12px;
+  color: #333;
+  font-size: 16px;
+  
+  &:active {
+    color: #007AFF;
+  }
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
